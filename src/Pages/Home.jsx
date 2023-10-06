@@ -1,10 +1,10 @@
 import { useQuery } from "@tanstack/react-query";
 import { useMemo, useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import Form from '../components/form/Form';
-import { getDocumentTypes } from '../services/clients';
-import { searchOrder } from '../services/orders';
-import '../styles/home/home.scss';
+import Form from 'src/components/form/Form';
+import { getDocumentTypes } from 'src/services/clients';
+import { searchOrder } from 'src/services/orders';
+import 'src/styles/home/home.scss';
 
 function Home() {
   const navigate = useNavigate();

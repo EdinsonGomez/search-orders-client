@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { getOrder } from '../services/orders';
-import '../styles/orders/order.scss';
+import { getOrder } from 'src/services/orders';
+import 'src/styles/orders/order.scss';
 
 const InfoItem = ({ label, value }) => (
   <div className='order__info-item'>

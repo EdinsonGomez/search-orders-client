@@ -1,8 +1,16 @@
-# React + Vite
+# Search order client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este client esta diseñado para consumir y probar [Search order API](https://github.com/EdinsonGomez/search-orders-api). Creado utilizando [React](https://react.dev/)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instrucciones
+1. Instalar y ejecutar el servidor siguiendo las instrucciones del [repositorio](https://github.com/EdinsonGomez/search-orders-api).
+2. Clonar este repositorio.
+3. Instalar las dependencias con el comando
+   ```
+   npm install
+   ```
+4. Ejecutar el proyecto con el comando
+   ```
+   npm run dev
+   ```
+5. Abre http://localhost:5173/ en tu navegador.
